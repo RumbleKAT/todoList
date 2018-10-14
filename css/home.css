@@ -1,0 +1,112 @@
+#title{
+    width : 100%;
+    height: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+#title > h1{
+    display: inline-block;
+    margin : 0px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color : #3C5360;
+}
+
+#title > a {
+    padding : 10px;
+    text-align: center;
+    margin-right: 7%;
+    float: right;
+    text-decoration: none;
+}
+
+.content{
+    text-align: left;
+    width : 90%;
+}
+
+.content > article, .content-display{
+    text-align: left;
+    margin: 15px 0 0 15px;
+    float: right;
+}
+
+.content-display{
+    list-style: none;
+    width : 30%;
+    padding: 0;
+}
+
+.content-title{
+    background-color: #3C5360;
+    width : 100%;
+	height: 60px;
+    margin-bottom : 15px;   	
+    
+}
+
+.content-sorting{
+    width : 100%;
+    background-color: #3C5360;
+    height: 20px;
+    float: left;
+    margin-bottom: 10px;
+    color : #fff;
+}
+.content-sorting:hover{
+    background-color: #d5d5d5;
+}
+
+.content-title > h3{
+	color : #fff;
+	line-height : 60px;
+	margin-left : 10px;
+}
+
+
+.content-element{
+    background-color: #D3E4EE;
+    display: inline-block;
+    width : 100%;
+    height : 120px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.content-element h2,.content-element p{
+    margin-left : 5%;
+}
+
+.content-element:last-child{
+    margin-bottom: 0px;
+}
+
+.content-element:last-child{
+    margin-bottom: 0px;
+}
+
+
+.content-element > p {
+    color : #95ADCC;
+    font-size: 0.5em;
+    width : 75%;
+    float: left;
+}
+
+.content-element > button{
+    width : 10%;
+    float: right;
+    margin-right: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+	.content {
+		width : 100%;
+	}
+	.content-display{
+		width : 25%;
+	}
+	.content-element p{
+		margin-top : 0px;
+	}
+}

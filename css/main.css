@@ -1,0 +1,48 @@
+@import "./home.css";
+@import "./todoform.css";
+
+body{
+    background-color: #EDF0EE;
+}
+
+h1{
+   font-size: 2em;
+}
+
+body section{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+    overflow:hidden;
+}
+
+.navbar > ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li{
+    float: left;
+}
+.navbar li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color : #555;
+}
+
+.navbar li a:hover{
+    background-color: #dfdfdf;
+}
+
+
+
+.btn-blue {
+    color : #fff;
+    background-color: #56ABE8;
+}

@@ -1,0 +1,62 @@
+.create-form{
+    width : 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.create-form fieldset{
+    border: none;
+}
+
+.create-form .create-element{
+    margin-bottom: 40px;
+}
+
+.create-form .create-element label{
+    margin-right: 40px;
+}
+
+.create-form p{
+    color : #666666;
+    font-size: 20px;
+}
+
+.create-form input{
+    color : #666666;
+}
+
+.create-form input[name="description"]{
+    width : 600px;
+    height : 40px;
+    font-size: 20px;
+}
+
+.create-form input[name="maker"]{
+    width : 300px;
+    height : 40px;
+    font-size: 20px;
+}
+
+.btn-blue{
+    font-size: 18px;
+    width : 150px;
+    padding : 10px;
+    margin: 0 10px;
+    float: right;
+}
+
+.btn-before{
+    background: #fff;
+    border : solid #000 1px;
+    text-decoration: underline;
+    font-size: 18px;
+    width : 130px;
+    padding : 10px;
+    display: inline-block;
+    text-align: center;
+    color : #000;
+}
+
+.btn-before::before{
+    content: "< ";
+}

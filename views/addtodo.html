@@ -1,0 +1,33 @@
+<section>
+    <article>
+        <h1>할일 등록</h1>
+        <form class="create-form">
+            <fieldset name="create-field">
+                <div class="create-element">
+                    <p>어떤일인가요?</p>
+                    <input type="text" name="description" maxlength="24" placeholder="swift 공부하기(24자까지)" />
+                </div>
+                <div class="create-element">
+                    <p>누가 할일인가요?</p>
+                    <input type="text" name="maker" maxlength="5" placeholder="홍길동" />
+                </div>
+                <div class="create-element">
+                    <p>카테고리를 선택하세요</p>
+                    <input type="radio" id="orderType01" name="category" value="1">
+                    <label for="orderType01">Study</label>
+
+                    <input type="radio" id="orderType02" name="category" value="2">
+                    <label for="orderType02">Excercise</label>
+
+                    <input type="radio" id="orderType03" name="category" value="3">
+                    <label for="orderType03">Work</label>
+                </div>
+                <div class="create-btn">
+                    <a href="" class="btn-before">이전</a>
+                    <button class="btn-blue" id="submit">제출</button>
+                    <button class="btn-blue" type="reset">내용 지우기</button>
+                </div>
+            </fieldset>
+        </form>
+    </article>
+</section>
