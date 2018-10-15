@@ -110,7 +110,13 @@ class Page {
       } else{
         category = "Working"
       }
-      let todo = { "id": state.todoList[state.todoList.length - 1].id + 1, "title": formData.get("description"), "category": category, "name": formData.get("maker"), "type": "todo" };
+      let todo = undefined;
+      console.log(state.todoList);
+      if(state.todoList.length){
+        todo = { "id": state.todoList[state.todoList.length - 1].id + 1, "title": formData.get("description"), "category": category, "name": formData.get("maker"), "type": "todo" };
+      }else{
+        todo = { id: 1, title: formData.get("description"), category: category, name: formData.get("maker"), type: "todo" };
+      }
       state.todoList.push(todo);
 
       alert(JSON.stringify(todo));
