@@ -3,4 +3,6 @@
 
 git clone https://github.com/RumbleKAT/todoList.git
 
+https://rumblekat.github.io/todoList/ 으로 들어오시면 홈페이지를 확인하실 수 있습니다!
+
 혹시 폴더의 소스가 확인이 안되시면 이 사이트에서 받으시면 될 것 같습니다. 감사합니다 :)
